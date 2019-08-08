@@ -28,3 +28,15 @@ body {
 .img-size {
   max-height: 700px;
 }
+
+
+.starter-template{
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+.lead{
+  color: white;
+}
