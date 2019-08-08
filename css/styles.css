@@ -32,6 +32,7 @@ body {
 
 .starter-template{
   background-color: black;
+  max-height: 200px;
 }
 
 h1 {
@@ -39,4 +40,14 @@ h1 {
 }
 .lead{
   color: white;
+}
+
+.navbar-collapse {
+  background-color: black;
+
+}
+
+
+.nav-item {
+  color:white;
 }
