@@ -1,0 +1,27 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.first-col {
+  background-color: pink;
+}
+
+.second-col {
+  background-color: pink;
+}
+
+.third-col {
+  background-color: pink;
+}
+
+.dropdown-menu {
+  background-color: white;
+}
+
+.img-size {
+  height: 300px
+}
