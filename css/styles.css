@@ -83,6 +83,8 @@ h1 {
   max-height: 457px;
 }
 
+* img { object-fit: cover; }
+
 .bl-background {
   background: black;
   text-decoration-color: white;
@@ -109,7 +111,9 @@ a:hover {
 }
 
 .image-text {
-  color: black;
+  color: white;
+  font-size: 14pt;
+  font-family: 'Playfair Display', serif;
 }
 
 .makeupbox {
