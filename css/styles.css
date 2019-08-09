@@ -2,17 +2,7 @@ body {
   padding-top: 5rem;
 }
 
-.first-col {
-  background-color: pink;
-}
 
-.second-col {
-  background-color: pink;
-}
-
-.third-col {
-  background-color: pink;
-}
 
 .dropdown-menu {
   background-color: white;
@@ -71,10 +61,16 @@ h1 {
 
 }
 
-.nav-link {
-  color: white;
-}
+/* .image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
 
+.carousel-caption {
+  height: 100%;
+}
 
 .bl-background {
   background: black;
@@ -95,4 +91,12 @@ a:hover {
 }
 .btn-outline-success {
   color: pink;
+}
+
+.container {
+  text-align: center;
+}
+
+.image-text {
+  color: black;
 }
