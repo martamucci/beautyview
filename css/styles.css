@@ -1,10 +1,6 @@
 body {
   padding-top: 5rem;
 }
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
-}
 
 
 
@@ -12,24 +8,52 @@ body {
   background-color: white;
 }
 
+.starter-template{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  max-height: 300px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .lead{
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+  }
 
 
+  h1 {
+    color: white;
+    font-size: 40pt;
+  text-align: center;
+
+  }
+}
+
+
+.logo {
+  width: 40%;
+}
 
 .img-size {
-  max-height: 700px;
+  max-height: 600px;
 }
 
-
-.starter-template{
-  background-color: black;
-  max-height: 200px;
-}
 
 h1 {
   color: white;
+  font-size: 40px;
+  text-align: center;
 }
+
 .lead{
   color: white;
+  font-size: 12pt;
+  text-align: center;
 }
 
 .navbar-collapse {
@@ -48,9 +72,25 @@ h1 {
   height: 100%;
 }
 
+.bl-background {
+  background: black;
+  text-decoration-color: white;
+}
 
-.nav-item {
-  color:white;
+a {
+  color: pink;
+}
+
+a:hover {
+  color: pink;
+  font-size: 14pt;
+}
+
+.btn {
+  color:pink;
+}
+.btn-outline-success {
+  color: pink;
 }
 
 .container {
