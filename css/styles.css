@@ -6,17 +6,7 @@ body {
   text-align: center;
 }
 
-.first-col {
-  background-color: pink;
-}
 
-.second-col {
-  background-color: pink;
-}
-
-.third-col {
-  background-color: pink;
-}
 
 .dropdown-menu {
   background-color: white;
@@ -47,7 +37,26 @@ h1 {
 
 }
 
+/* .image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.carousel-caption {
+  height: 100%;
+}
+
 
 .nav-item {
   color:white;
+}
+
+.container {
+  text-align: center;
+}
+
+.image-text {
+  color: black;
 }
